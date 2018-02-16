@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif; /* contain several fonts as a "fallback" system */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: AliceBlue;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: sticky; /* my header will always be visible on the top, even if I scroll down*/
+  top: 0;
+}
+
+.title-wrapper {
+  background-color: black;
+  width: 100%;
+}
+
+ .title {
+   color: white;
+   font-family: impact, charcoal, sans-serif;
+   font-size: 2rem;
+   text-align: center;
+ }
+
+
+/* '>' is a way to only target the list which is a direct child of 'nav' */
+nav > ul {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* This specific selector will insert some text or whitespace after each 'ul' elt */
+nav > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* to create an horizontal navbar */
+nav > ul > li {
+  float: left;
+  position: relative;
+}
+
+nav > ul > li > a {
+  padding: 3vh 3.5vw;
+  color: white;
+  font-size: 1em;
+}
+
+/* to remove the bullet points */
+nav li {
+  list-style-type: none;
+}
+
+/* select and style a 'li' elt only when the mouse is on it */
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F7C906;
+}
+
+
+nav {
+  width: 100%;
+  background-color: #0000ff;
+  border-top: 1px solid white;
+  font-family: impact, charcoal, sans-serif;
+}
+
+/* End of my navbar styling - let's start with the main content of the index page*/
+p {
+  text-align: justify;
+} /* with p, i am targeting all the paragraphs of my website because I want them to be justified by default*/
+
+.article {
+  margin: 5rem 10rem 5rem 10rem;
+}
+
+.article p {
+  font-family: sans-serif;
+}
+
+.text h1 {
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  font-family: sans-serif;
+}
+
+.explanation a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  border:
+}
+
+.explanation a:hover {
+  color: orange;
+}
+
+.explanation p {
+  text-align: center;
+  padding: 3rem 3rem 3rem 3rem;
+  border: solid 1px black;
+}
+
+.text {
+  margin: 5rem 10rem 5rem 10rem;
+  font-family: sans-serif;
+}
+
+.resume img {
+  margin-top: 2rem;
+  width:120vh;
+}
+
+.cover_letter {
+  margin: 5rem 10rem 5rem 10rem;
+}
