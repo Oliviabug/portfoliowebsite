@@ -197,6 +197,10 @@ p {
   margin-left: 5rem;
 }
 
+.graph_adobe {
+  width: 60vw;
+}
+
 .explanation {
   margin: auto;
 }
