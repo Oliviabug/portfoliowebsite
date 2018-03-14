@@ -108,6 +108,10 @@ p {
   border:
 }
 
+.download_resume {
+  width: 100%;
+}
+
 .le_petit_journal a:hover {
   color: orange;
 }
