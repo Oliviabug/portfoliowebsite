@@ -91,7 +91,6 @@ p {
 
 .article p {
   text-align: center;
-  /*margin: 5rem 10rem 5rem 10rem;*/
   margin-bottom: 1.5rem;
 }
 
@@ -108,9 +107,6 @@ p {
   border:
 }
 
-.download_resume {
-  width: 100%;
-}
 
 .le_petit_journal a:hover {
   color: orange;
@@ -147,11 +143,7 @@ p {
   margin-top: 2rem;
   width:120vh;
 }
-/*
-.pictures {
-  display: flex;
-  flex-wrap: wrap;
-}*/
+
 
 .wrapper {
   display: flex;
@@ -195,10 +187,6 @@ p {
   margin-right: 5rem;
   margin-bottom: 2rem;
   margin-left: 5rem;
-}
-
-.graph_adobe {
-  width: 60vw;
 }
 
 .explanation {
