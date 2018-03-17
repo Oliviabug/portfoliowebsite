@@ -208,3 +208,68 @@ footer p {
   margin-top: 2rem;
   color: black;
 }
+
+/* start of media queries */
+
+@media (max-width:360px) {
+  .submenu-what {
+    display: none;
+  }
+}
+
+@media (max-width:1000px) {
+  .text {
+    width: 80vw;
+    font-size: 1.2rem;
+  }
+
+  .resume img {
+    width: 90vw;
+  }
+
+  .vis1 img {
+    width: 70%;
+  }
+
+  .vis2 img {
+    width: 70%;
+  }
+
+  .vis3 img {
+    width: 70%;
+  }
+
+  .vis1 {
+    font-size: 2rem;
+  }
+
+  .vis2 {
+    font-size: 2rem;
+  }
+
+  .vis3 {
+    font-size: 2rem;
+  }
+
+  .explanation {
+    font-size: 2rem;
+  }
+
+  .graph {
+    width: 70vw;
+  }
+
+  .static {
+    font-size: 2rem;
+  }
+
+  .article {
+    font-size: 1.8rem;
+  }
+
+  .article p a {
+    font-size: 1.5rem;
+  }
+
+
+}

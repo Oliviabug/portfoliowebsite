@@ -84,9 +84,6 @@ p {
   text-align: justify;
 } /* with p, i am targeting all the paragraphs of my website because I want them to be justified by default*/
 
-.article {
-  /*margin: 5rem 10rem 5rem 10rem;*/
-}
 
 .article p {
   font-family: sans-serif;
@@ -148,4 +145,48 @@ h2 {
 
 .img-map {
   width:80vh;
+}
+
+/* start of media queries */
+
+@media (max-width: 1000px) {
+
+  .NPT {
+    margin: 5rem 10.5rem 10rem 10.5rem;
+    font-size: 1.5rem;
+
+  }
+
+  .NPT_title h2 {
+    margin: 5rem 7.5rem 5rem 7.5rem;
+    font-family: sans-serif;
+  }
+
+  .NPT img {
+    width: 65vw;
+  }
+
+
+  .cycling {
+    margin: 5rem 6.5rem 5rem 6.5rem;
+    font-size: 1.5rem;
+  }
+
+  .map {
+    width: 65vw;
+    margin: 3rem 5.5rem 3rem 5.5rem;
+    margin-top: 3rem;
+  }
+
+  .map p {
+    margin-left: 4rem;
+    font-size: 1.6rem;
+  }
+
+
+  .img-map {
+    width:90vh;
+  }
+
+
 }
