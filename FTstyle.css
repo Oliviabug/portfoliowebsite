@@ -85,10 +85,6 @@ p {
 } /* with p, i am targeting all the paragraphs of my website because I want them to be justified by default*/
 
 
-.article p {
-  font-family: sans-serif;
-}
-
 .explanation h3 {
   margin-bottom: 3rem;
   margin-top: 5rem;
@@ -125,10 +121,16 @@ h2 {
   width: 50vw;
 }
 
+.article {
+  margin: 5rem 10rem 5rem 10rem;
+}
 
+.article p {
+  font-family: sans-serif;
+}
 
 .cycling {
-  margin: 5rem 8.5rem 5rem 8.5rem;
+  margin: 5rem 11% 5rem 11%;
   font-family: sans-serif;
 }
 
@@ -150,6 +152,10 @@ h2 {
 /* start of media queries */
 
 @media (max-width: 1000px) {
+
+  nav > ul > li > a {
+    font-size: 2rem;
+  }
 
   .NPT {
     margin: 5rem 10.5rem 10rem 10.5rem;
